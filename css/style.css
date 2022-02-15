@@ -189,7 +189,7 @@ img
 
 .text{
   align-self: center;
-  max-height: 25%;
+  max-height: 25vh;
   overflow: scroll;
 
 }
