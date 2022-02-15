@@ -74,8 +74,12 @@ nav a{
   text-decoration: none;
 }
 
-a:hover{
-  text-decoration: wavy;
+nav a:hover{
+  text-decoration: underline wavy;
+}
+
+nav a:focus{
+  border-top: rgb(255, 251, 0) solid 2px;
 }
 
 
@@ -83,7 +87,6 @@ a.skip{
   position:absolute;
   background: white;
   left: -500px;
-  top: 20px;
   padding: 6px;
   -webkit-transition: top 1s ease-out;
   transition: top 1s ease-out;
@@ -92,8 +95,8 @@ a.skip{
 }
 
 a.skip:focus{
-  position:absolute;
   left:0px;
+  top: 20px;
 }
 
 
@@ -104,10 +107,10 @@ a.skip:focus{
 
 
 
+
 .container{
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
-  grid-template-rows: auto auto auto auto;
   grid-row-gap: 30px;
 }
 
@@ -152,7 +155,6 @@ img
 
 .about-image{
   max-height: 500px;
-  /* width: 100%; */
   overflow: hidden;
   grid-column: 1/span 3;
   grid-row: 1/span 1;
