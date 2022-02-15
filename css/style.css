@@ -115,7 +115,7 @@ a.skip:focus{
 }
 
 .intro{
-  background: url("../images/header.jpg") #858585;
+  background: url(../images/header.jpg) #858585;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
